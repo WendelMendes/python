@@ -1,0 +1,36 @@
+{
+    "Yoda": {
+        "Cargo": "Mestre Jedi",
+        "Tags": [
+            "Pequeno",
+            "Verde"
+        ]
+    },
+    "Mace Windu": {
+        "Cargo": "Mestre Jedi",
+        "Tags": [
+            "Careca",
+            "Alto"
+        ]
+    },
+    "Anakin Skywalker": {
+        "Cargo": "Cavaleiro Jedi",
+        "Tags": [
+            "Mudou de ideia",
+            "Agora é Sith"
+        ]
+    },
+    "R2-D2": {
+        "Cargo": "Mecânico",
+        "Tags": [
+            "Dróide",
+            "Melhor robozin"
+        ]
+    },
+    "Dex": {
+        "Cargo": "Balconista",
+        "Tags": [
+            "Alado"
+        ]
+    }
+}

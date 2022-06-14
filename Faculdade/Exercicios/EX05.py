@@ -1,0 +1,71 @@
+def linha():
+    print("----------------------------------------------------------------------------------------------------------")
+linha()
+print("                                     DESAFIO - RANKING DE CRITICIDADE")
+linha()
+print("Critérios de avaliação: Ano | Mês.")
+linha()
+print("Acontecimentos suportados: Nome da Empresa | Senha | Ajuda de senha | Número de telefone | Nomes | E-mail.")
+linha()
+#---------------------------------------------------------------------------------------------------------------------
+senha=("Senha vazada")
+ajuda_da_senha=("Ajuda de senha vazada")
+numero_do_telefone=("Número de telefone vazado")
+nomes=("Nomes vazados")
+e_mail=("E-mail vazado")
+#---------------------------------------------------------------------------------------------------------------------
+l1=[]
+l1.append(2013)
+l1.append(10)
+l1.append("Outubro")
+l1.append("Adobe")
+l1.append(e_mail)
+l1.append(ajuda_da_senha)
+l1.append(nomes)
+l2=[]
+l2.append(2018)
+l2.append(8)
+l2.append("Agosto")
+l2.append("Apollo")
+l2.append(e_mail)
+l2.append(nomes)
+l2.append(senha)
+l3=[]
+l3.append(2019)
+l3.append(5)
+l3.append("Maio")
+l3.append("Canva")
+l3.append(e_mail)
+l3.append(nomes)
+l3.append(senha)
+l4=[]
+l4.append(2019)
+l4.append(10)
+l4.append("Outubro")
+l4.append("PLD")
+l4.append(e_mail)
+l4.append(nomes)
+l4.append(numero_do_telefone)
+l5=[]
+l5.append(2019)
+l5.append(3)
+l5.append("Março")
+l5.append("Hurb")
+l5.append(e_mail)
+l5.append(nomes)
+l5.append(senha)
+l5.append(numero_do_telefone)
+#---------------------------------------------------------------------------------------------------------------------
+empresas=[l1,l2,l3,l4,l5]
+empresas.sort()
+l1.pop(1)
+l2.pop(1)
+l3.pop(1)
+l4.pop(1)
+l5.pop(1)
+empresas.reverse()
+i=0
+while i < len(empresas):
+    print(empresas[i])
+    i = i + 1
+linha()
